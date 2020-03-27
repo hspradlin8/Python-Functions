@@ -21,3 +21,11 @@ my_list = []
 
 for i in range(10):
     my_list.append(1)
+
+# Sequence challenge: Len, Min, & Max
+# Find the len, min, and max of student_gpas
+
+student_gpas = [4.0, 2.3, 3.5, 3.7, 3.9, 2.8, 1.5, 4.0]
+length = len(student_gpas)
+max_gpa = max(student_gpas)
+min_gpa = min(student_gpas)
